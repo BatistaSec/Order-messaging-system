@@ -158,7 +158,7 @@ src/main/java/com/notification/
 #### 5. Executar a aplicação
       mvn spring-boot:run
 
-* Execute primeiro o Order Service e depois o Notification Service.
+* Execute primeiro o Gestao_de_Pedidos e depois o Service.
 
 ### 🧪 Testando o sistema
 
