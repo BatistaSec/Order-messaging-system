@@ -133,8 +133,8 @@ src/main/java/com/notification/
 ```
 ### ▶️ Como executar o projeto
 #### 1. Clonar os repositórios
-      git clone https://github.com/seu-usuario/order-service.git
-      git clone https://github.com/seu-usuario/notification-service.git
+      git clone https://github.com/BatistaSec/Order-messaging-system/tree/main/Service
+      https://github.com/BatistaSec/Order-messaging-system/tree/main/gest%C3%A3o_de_pedidos
 #### 2. Criar banco de dados
      CREATE DATABASE orders_db;
 #### 3. Subir o RabbitMQ (Docker)
