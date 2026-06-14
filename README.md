@@ -29,7 +29,7 @@ A aplicação também conta com autenticação e autorização utilizando JWT (J
 
 O sistema é composto por dois microserviços independentes:
 
-### 🟦 Order Service
+### 🟦 Gestao de pedidos
 
 Responsável por:
 
@@ -53,7 +53,7 @@ Responsável por:
 ### 🔄 Fluxo da aplicação
 
 ```text
-Usuário → Order Service → MySQL
+Usuário → Gestao de pedidos → MySQL
                      ↓
                 RabbitMQ
                      ↓
@@ -110,7 +110,7 @@ Usuário → Order Service → MySQL
        "createdAt": "2026-06-09T10:30:00"
      }
 ### 📂 Estrutura do projeto
-#### Order Service
+#### gestao de pedidos 
 ```text
 src/main/java/com/order/
 ├── controller
